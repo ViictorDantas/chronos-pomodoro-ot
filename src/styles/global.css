@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem; /* 16px */
+    font-family: sans-serif;
+    background-color: var(--gray-900);
+    color: var(--text-default);
+}
+
+.container-fluid {
+    max-width: auto;
+}
+
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+}
+
+
+.content {
+    margin: 3.2rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-direction: column;
+}
+
+.formRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+}
